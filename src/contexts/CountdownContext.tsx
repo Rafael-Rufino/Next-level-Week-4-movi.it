@@ -24,7 +24,7 @@ export function CountdownProvider({children}: CountdownProviderProps){
 
 
 
-    const [time, setTime] = useState(0.3 * 60);//minutos
+    const [time, setTime] = useState(0.1 * 60);//minutos
     const [isActive, setIsActive] = useState(false);
     const [hasFinisted, setHasFinished] = useState(false);
   
@@ -38,7 +38,7 @@ export function CountdownProvider({children}: CountdownProviderProps){
         clearTimeout(countdownTimeout);
         setIsActive(false);
         setHasFinished(false);
-        setTime(0.3 * 60);
+        setTime(0.1 * 60);
       }
       // cronometro
       useEffect(() => {

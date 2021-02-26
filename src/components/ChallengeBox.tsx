@@ -36,14 +36,14 @@ export function ChallengeBox(){
                         <button
                          type = "button"
                          className = {styles.ChallengeFailedButton}
-                         onClick = {handleChallengeSucceeded}
+                         onClick = {handleChallengeFailed}
                          >
                             falhei
                         </button>
                         <button
                          type = "button"
                          className = {styles.ChallengeSucceededButton}
-                         onClick ={handleChallengeFailed}
+                         onClick = {handleChallengeSucceeded}
                          >
                             Completei
                         </button>
