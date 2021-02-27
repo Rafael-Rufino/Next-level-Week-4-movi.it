@@ -17,7 +17,8 @@
 .profileContainer div strong{
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--title);
+    /* color: var(--title); */
+    color: gold;
 }
 
 .profileContainer div p{
@@ -26,4 +27,11 @@
 }
 .profileContainer div p img{
     margin-right: 0.5rem;
+}
+
+
+@media (max-width: 600px){
+    .profileContainer{
+        margin-top: 3rem;
+    }
 }

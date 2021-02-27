@@ -6,7 +6,7 @@
 
 :root{
     --white:#fff;
-    --background: #F2F3F5;
+    --background: #B2B9FF;
     --gray-line: #DCDDE0;
     --text: #666666;
     --text-highlight: #B3B9FF;
@@ -28,9 +28,14 @@
     }
 }
 
-body{
+/* body{
     background-color: var(--background);
     color: var(--text);
+} */
+
+body{
+    background-color: rgb(182, 94, 94);
+    color: honeydew;
 }
 body, input, textarea, button{
     font: 400 16px "Inter", sans-serif;
