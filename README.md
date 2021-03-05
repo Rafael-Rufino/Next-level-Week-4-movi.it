@@ -2,7 +2,7 @@
 <h3 align="center">
     <img alt="Logo" title="#logo" width="300px" src="https://github.com/rocketseat-education/nlw-04-reactjs/raw/main/.github/logo.png">
     <br><br>
-    <b> Plataforma pra incentivar a pratica exercicios fisicos!</b>  
+    <b> Plataforma pra incentivar a pratica de exercicios fisicos!</b>  
     <br>
 </h3>
 
